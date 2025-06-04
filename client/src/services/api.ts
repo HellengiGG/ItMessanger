@@ -8,7 +8,7 @@ import {
     PrivateMessage,
 } from '../types';
 
-const API_URL = 'http://localhost:8083/api';
+const API_URL = 'https://itmessanger.onrender.com/api';
 
 const api = axios.create({
     baseURL: API_URL,

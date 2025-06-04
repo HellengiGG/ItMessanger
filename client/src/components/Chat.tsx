@@ -117,12 +117,12 @@ const Chat: React.FC = () => {
                                     secondary={
                                         m.fileUrl ? (
                                                 /\.(png|jpe?g|gif)$/i.test(m.fileUrl) ? (
-                                                    <a href={`http://localhost:8083${m.fileUrl}`} target="_blank" rel="noreferrer">
-                                                        <img src={`http://localhost:8083${m.fileUrl}`} alt={m.content}
+                                                    <a href={`https://itmessanger.onrender.com/api${m.fileUrl}`} target="_blank" rel="noreferrer">
+                                                        <img src={`https://itmessanger.onrender.com/api${m.fileUrl}`} alt={m.content}
                                                              style={{ maxWidth: 200, maxHeight: 200 }} />
                                                     </a>
                                                 ) : (
-                                                    <a href={`http://localhost:8083${m.fileUrl}`} target="_blank" rel="noreferrer">
+                                                    <a href={`https://itmessanger.onrender.com/api${m.fileUrl}`} target="_blank" rel="noreferrer">
                                                         {m.content || 'Скачать файл'}
                                                     </a>
                                                 )
