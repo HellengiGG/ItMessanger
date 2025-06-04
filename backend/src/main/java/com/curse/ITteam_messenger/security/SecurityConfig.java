@@ -62,7 +62,8 @@ public class SecurityConfig {
                 "http://localhost:3004",
                 "http://localhost:3005",
                 "http://localhost:80",
-                "http://localhost"
+                "http://localhost",
+                "https://itmessanger.onrender.com/"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
         configuration.setAllowedHeaders(List.of("*"));
